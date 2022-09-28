@@ -28,3 +28,25 @@ console.log("Ultimo Traje", personaje.subs[personaje.subs.length - 1]);
 const x = "live";
 console.log("live", personaje[x]);
 console.log("Ultima Pelicula", personaje["ultima-Pelicula"]);
+
+//mas detalles
+
+delete personaje.age;
+console.log(personaje);
+
+personaje.casado = true;
+
+const entriesPares = Object.entries(personaje);
+console.log(entriesPares);
+
+Object.freeze(personaje);
+
+personaje.dinero = 10000000;
+personaje.casado = false;
+console.log(personaje);
+personaje.adress.locate = "costa rica";
+console.log(personaje);
+const propiedades = Object.getOwnPropertyNames(personaje);
+const valores = Object.values(personaje);
+console.log(valores);
+console.log(propiedades);
