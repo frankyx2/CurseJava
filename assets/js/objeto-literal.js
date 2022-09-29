@@ -33,6 +33,7 @@ console.log("Ultima Pelicula", personaje["ultima-Pelicula"]);
 
 delete personaje.age;
 console.log(personaje);
+ºº;
 
 personaje.casado = true;
 
@@ -49,4 +50,5 @@ console.log(personaje);
 const propiedades = Object.getOwnPropertyNames(personaje);
 const valores = Object.values(personaje);
 console.log(valores);
+º;
 console.log(propiedades);
