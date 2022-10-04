@@ -20,3 +20,16 @@ if (dia === 0) {
 } else {
   console.log("Hoy no es Domingo, lunes o martes ");
 }
+
+// sin usar if / else
+let dia2 = 20;
+let dias = [
+  "domingo",
+  "lunes",
+  "martes",
+  "miercoles",
+  "jueves",
+  "viernes",
+  "sabado",
+];
+console.log("El dia obtenido es ", dias[dia2] || "dia no defino");
